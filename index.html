@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./movie.css">
+    <title>Web Ninjas</title>
+</head>
+<body>
+    <!--Header Section-->
+    <header  class="header">
+        <div class="logo"><h1>MovieFlex</h1></div>
+       <nav class="nav">
+            <ul>
+                <li><a href="#" class = "active">Home</a></li>
+                <li><a href="#">Movies</a></li>
+                <li><a href="#book">Book</a></li>
+                <li><a href="#nowshowing">NowShowing</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--Hero section-->
+    <section  class="hero">
+        <div class="hero-content">
+            <h1>Experience Movies Like Never Before</h1>
+             <p>Watch the latest blockbusters in premium quality</p>
+        <a href="#booking" class="btn">Book Tickets Now</a>
+            </div>
+    </section>
+    <section id="nowshowing" class="movies">
+        <h2 class="section-title">Now Showing</h2>
+        <div class="movie-grid">
+            <div class="movie-card">
+                <img
+            src="./GoT.jpg"
+            alt="Cosmic Adventure"
+          />
+          <h3>Game of Throne</h3>
+          <p>Advanture, Mystery</p>
+          <a href="#" class="btn-small">Book Now</a>
+            </div>
+        
+        <div class="movie-card">
+            <img
+              src="./HD.jpg"
+              alt="Biblical, Movies"
+            />
+            <h3>The Boy </h3>
+            <p>Mystery, Drama</p>
+            <a href="#" class="btn-small">Book Now</a>
+          </div>
+          <div class="movie-card">
+            <img
+              src="./THeC.jpg"
+              alt="Love, Life"
+            />
+            <h3>Love of Him</h3>
+            <p>Biblical, Drama</p>
+            <a href="#" class="btn-small">Book Now</a>
+          </div>
+          <div class="movie-card">
+            <img
+              src="./MH.jpg"
+              alt="Money, Hunters"
+            />
+            <h3>Money Hunters</h3>
+            <p>Action,   Thriller</p>
+            <a href="#" class="btn-small">Book Now</a>
+          </div>
+        </div>
+      </section>
+      <section class="features">
+        <h1 class="section-title">Why Choose Us</h1>
+      <div class="features-container">
+        <div class="feature">
+          <div class="feature-icon">🎬</div>
+          <h3>Premium Screens </h3>
+          <p>Expreince movies in high-definition quality with immersive sound</p>
+        </div>
+        <div class="feature">
+          <div class="feature-icon">🍿</div>
+          <h3>Delicious Snacks</h3>
+          <p>Enjoy a variety of snacks and beverages while watching your favorite movies</p>
+        </div>
+        <div class="feature">
+          <div class="feature-icon">💺</div>
+          <h3>Comfortable Seating</h3>
+          <p>Relax in our plush, comfortable seats designed for maximum enjoyment</p>
+        </div>
+      </div>
+      </section>
+
+  <section id="book" class="booking">
+    <h2 class="section-title">Book Your Ticktes</h2>
+  <form class="booking-form">
+    <div class="form-group">
+      <label for="movie">Select Movie:</label></br>
+<select id="movie" name="movie" required>
+  <option value="">--Select a Movie</option>
+  <option value="movie1">Cosmic ADventure</option>
+  <option value="movie2">Mystery Island</option>
+  <option value="movie3">Love Story</option>
+  <option value="movie4">Night Hunters</option>
+</select></div>
+<div class="form-group">
+  <label for="date">Select Date:</label></br>
+  <input type="date" id="date" name="date" required />
+</div>
+<div class="form-group">
+  <label for="time"> Select Time:</label></br>
+  <select id="movie" name="movie" required>
+    <option value="">-- Select a Time --</option>
+    <option value="10:00">10:00 AM</option>
+    <option value="13:00">1:00 PM</option>
+    <option value="16:00">4:00 PM</option>
+    <option value="19:00">7:00 PM</option>
+    <option value="22:00">10:00 PM</option>
+  </select>
+</div>
+<div class="form-group">
+  <label for="ticket">Number of Ticktes:</label></br>
+  <input  id="ticket" type="num" name="ticket"  min="1" max="10" required />
+
+</div>
+<div class="form-group">
+  <label for="name">Your Name:</label></br>
+  <input type="text" id="name" name="name" required />
+</div>
+<div class="form-group">
+  <label for="email">Email Address:</label></br>
+  <input type="email" id="email" name="email" required />
+</div>
+<button type="submit" class="btn">Book Now</button>
+
+
+    
+  </form>
+  </section>
+  <footer class="footer">
+    <div class="footer-content">
+    <div class="footer-section">
+        <h3>Movie Flex</h3>
+        <p>Ultimate destination for amazing movie</p>
+    </div>
+        <div class="footer-section">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Movies</a></li>
+            <li><a href="#">Upcoming</a></li>
+            <li><a href="#">Deals</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div id ="contact" class="footer-section">
+          <h3>Contact Us</h3>
+          <p>Email: info@movieflix.com</p>
+          <p>Phone: (123) 456-7890</p>
+          <p>Address: 123 Cinema Street, Movie City</p>
+        </div>
+      </div>
+      
+    </footer>
+    <div class="footer-bottom">
+      <p>&copy; 2025 MovieFlix. All rights reserved.</p>
+    </div>
+  </body>
+</html>
+
+  
